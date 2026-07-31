@@ -23,7 +23,7 @@ export default function Education() {
           variants={fadeUp}
           className="flex flex-col items-center mb-stack-md"
         >
-          <h2 className="font-display text-headline-lg text-primary">Pendidikan</h2>
+          <h2 className="font-display text-headline-lg-mobile md:text-headline-lg text-primary">Pendidikan</h2>
           <div className="w-16 h-1 bg-primary-container mt-4 rounded-full" />
         </motion.div>
 

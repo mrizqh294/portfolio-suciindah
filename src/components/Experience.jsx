@@ -50,7 +50,7 @@ export default function Experience() {
         variants={fadeUp}
         className="flex flex-col items-center mb-stack-md"
       >
-        <h2 className="font-display text-headline-lg text-primary">Pengalaman Kerja</h2>
+        <h2 className="font-display text-headline-lg-mobile md:text-headline-lg text-primary">Pengalaman Kerja</h2>
         <div className="w-16 h-1 bg-primary-container mt-4 rounded-full" />
       </motion.div>
 
@@ -105,7 +105,7 @@ export default function Experience() {
                   className="inline-flex items-center gap-2 mt-5 px-4 py-2 rounded-lg border border-primary-container text-primary-container font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors"
                 >
                   <span className="material-symbols-outlined text-[18px]">description</span>
-                  Lihat Bukti Pengalaman
+                  Lihat Paklaring
                 </a>
               )}
             </div>

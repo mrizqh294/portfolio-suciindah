@@ -44,7 +44,7 @@ export default function Contact() {
           className="flex-1 flex flex-col gap-6"
         >
           <div>
-            <h2 className="font-display text-headline-lg text-primary">Hubungi Saya</h2>
+            <h2 className="font-display text-headline-lg-mobile md:text-headline-lg text-primary">Hubungi Saya</h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant mt-2 max-w-md">
               Saya selalu terbuka untuk mendiskusikan pekerjaan atau peluang kerjasama.
               Kirim pesan.

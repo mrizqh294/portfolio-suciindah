@@ -69,7 +69,7 @@ export default function Gallery() {
         className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-stack-md flex justify-between items-end"
       >
         <div>
-          <h2 className="font-display text-headline-lg text-primary">Galeri</h2>
+          <h2 className="font-display text-headline-lg-mobile md:text-headline-lg text-primary">Galeri</h2>
           <div className="w-16 h-1 bg-primary-container mt-4 rounded-full" />
         </div>
 

@@ -87,19 +87,11 @@
 
 import { motion } from "framer-motion";
 import { fadeUp, staggerContainer, staggerItem, viewportOnce } from "../animations";
-import serti1 from "../assets/serti1.png";
 import serti2 from "../assets/serti2.png";
 import serti3 from "../assets/serti3.png";
 import jurnal from "../assets/jurnal.png";
 
 const SKILLS = [
-  {
-    image: serti1,
-    title: "Surat Tanda Registrasi (STR)",
-    description: "Lulus Uji Kompetensi Rekam Medis dan Informasi Kesehatan pada tanggal 28 Agustus 2024",
-    actionLabel: "Lihat Sertifikat",
-    link: "https://drive.google.com/file/d/1setRRDfHjB7Xxbp2ztcwoZOeBGxOX9c-/view?usp=drivesdk",
-  },
   {
     image: jurnal,
     title: "Publikasi Artikel Ilmiah",
@@ -133,7 +125,7 @@ export default function Skills() {
         variants={fadeUp}
         className="flex flex-col items-center mb-stack-md"
       >
-        <h2 className="font-display text-headline-lg text-primary">Sertifikat & Publikasi</h2>
+        <h2 className="font-display text-headline-lg-mobile md:text-headline-lg text-primary">Sertifikat & Publikasi</h2>
         <div className="w-16 h-1 bg-primary-container mt-4 rounded-full" />
       </motion.div>
 
