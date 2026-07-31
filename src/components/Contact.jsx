@@ -20,14 +20,25 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [e.target.id]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbylQ19PPqwBb0cHmbTVPkn6YZVveaHtBzXyIFGoE-c__vX2GQYVspCrHl6C7tgIpqjf/exec";
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("sending");
-    // Placeholder — sambungkan ke endpoint/backend sesuai kebutuhan Anda.
-    setTimeout(() => {
+
+    try {
+      await fetch(SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors", 
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
       setStatus("sent");
       setForm({ name: "", email: "", message: "" });
-    }, 800);
+    } catch (err) {
+      console.error(err);
+      setStatus("error");
+    }
   };
 
   return (
@@ -66,20 +77,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* <div className="flex gap-4 mt-auto pt-8">
-            <a
-              href="#"
-              className="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors"
-            >
-              <span className="material-symbols-outlined">link</span>
-            </a>
-            <a
-              href="#"
-              className="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary transition-colors"
-            >
-              <span className="material-symbols-outlined">share</span>
-            </a>
-          </div> */}
         </motion.div>
 
         <motion.div
