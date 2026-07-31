@@ -54,7 +54,7 @@ export default function Contact() {
           <div className="flex flex-col gap-4 mt-4">
             <div className="flex items-center gap-4 text-on-surface-variant">
               <span className="material-symbols-outlined text-primary-container">mail</span>
-              <span className="font-body-md">suciindahpurnama06@gmail.com</span>
+              <span className="font-body-md">suciindahpurnama2003@gmail.com</span>
             </div>
             <div className="flex items-center gap-4 text-on-surface-variant">
               <span className="material-symbols-outlined text-primary-container">phone</span>

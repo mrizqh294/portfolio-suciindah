@@ -37,13 +37,14 @@ export default function Hero() {
           className="flex gap-4 mt-unit"
         >
           <a
-            href="#gallery"
+            href="https://drive.google.com/file/d/1PNOIJNoHQJ-GiiQS4_F1xBaCFXLXnTxR/view?usp=drivesdk
+"
             className="inline-flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary font-label-md text-label-md rounded-lg hover:opacity-90 transition-opacity"
           >
             Unduh CV
           </a>
           <a
-            href="#contact"
+            href="https://wa.me/62895334830722"
             className="inline-flex items-center justify-center px-6 py-3 bg-surface-container-lowest text-primary border border-outline-variant font-label-md text-label-md rounded-lg hover:bg-surface-container-low transition-colors"
           >
             Hubungi Saya

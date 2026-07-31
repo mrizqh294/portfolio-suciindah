@@ -11,6 +11,7 @@ const EXPERIENCES = [
       "Mengelola registrasi pasien rawat jalan dan rawat inap (umum maupun asuransi swasta mitra).",
       "memberikan pelayanan customer service terkait informasi yang dibutuhkan pasien, serta menangani transaksi pembayaran di kasir.",
     ],
+    proofLink: "https://drive.google.com/file/d/1WL6X9czJnPJbwQXYTG_GxUILOxiBC4Ms/view?usp=drivesdk",
   },
   {
     role: "Costumer Service",
@@ -21,16 +22,18 @@ const EXPERIENCES = [
       "Melayani dan membantu kendala pendaftaran online bagi pasien BPJS, memberikan informasi terkait pelayanan rumah sakit.",
       "Mengelola administrasi penginputan klaim alat bantu BPJS dan pengajuan akta kelahiran bayi baru lahir.",
     ],
+    proofLink: "https://drive.google.com/file/d/1-chDI3f8SV7tL1RpyAInwOSsqzcsHWjA/view?usp=drivesdk",
   },
   {
     role: "Perekam Medis",
     company: "Rumah Sakit Umum Daerah Kota Bandung",
-    period: "Feb 2025 - Des 2025",
+    period: "Maret 2024 - Mei 2024",
     current: false,
     points: [
       "Melakukan registrasi pasien IGD, rawat jalan, dan rawat inap, mengelola rekam medis manual (assembling, filing, indexing), melakukan scanning rekam medis manual ke sistem RME.",
       "Menginput coding diagnosis dan tindakan untuk klaim BPJS (casemix)",
     ],
+    proofLink: "",
   },
 ];
 
@@ -93,6 +96,18 @@ export default function Experience() {
                   </li>
                 ))}
               </ul>
+
+              {exp.proofLink && (
+                <a
+                  href={exp.proofLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-5 px-4 py-2 rounded-lg border border-primary-container text-primary-container font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors"
+                >
+                  <span className="material-symbols-outlined text-[18px]">description</span>
+                  Lihat Bukti Pengalaman
+                </a>
+              )}
             </div>
           </motion.div>
         ))}
