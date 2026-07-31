@@ -24,7 +24,7 @@ export default function Hero() {
           initial="hidden"
           animate="show"
           variants={heroText}
-          className="font-body-lg text-center md:text-start text-body-lg text-on-surface-variant max-w-xl"
+          className="font-body-lg text-center md:text-start text-body-md md:text-body-lg text-on-surface-variant max-w-xl"
         >
           Perekam Medis | Staff Pendaftaran | Customer Service | Kasir
         </motion.p>

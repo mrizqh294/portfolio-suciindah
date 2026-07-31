@@ -89,7 +89,7 @@ export default function Experience() {
               <ul className="space-y-3 font-body-md text-body-md text-on-surface-variant">
                 {exp.points.map((point) => (
                   <li key={point} className="flex items-start gap-3">
-                    <span className="material-symbols-outlined text-primary-container text-[18px] mt-1">
+                    <span className="material-symbols-outlined text-primary-container text-body-md md:text-body-lg mt-1">
                       check_circle
                     </span>
                     <span>{point}</span>

@@ -41,7 +41,7 @@ const PROJECTS = [
     alt: "Wisuda Politeknik Piksi Ganesha",
   },
   {
-    title: "HIMA Politeknik Piksi Ganesha",
+    title: "HIMA RMIK Politeknik Piksi Ganesha",
     description: "Foto dokumentasi kegiatan organisasi mahasiswa.",
     image: hima,
     alt: "HIMA Politeknik Piksi Ganesha",

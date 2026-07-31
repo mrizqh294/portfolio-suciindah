@@ -34,7 +34,7 @@ export default function Navbar() {
           href="#"
           className="font-display text-headline-md font-bold text-primary tracking-tight"
         >
-          SUCI INDAH
+          Suci Indah.
         </a>
 
         <ul className="hidden md:flex gap-gutter items-center">

@@ -45,7 +45,7 @@ export default function Contact() {
         >
           <div>
             <h2 className="font-display text-headline-lg-mobile md:text-headline-lg text-primary">Hubungi Saya</h2>
-            <p className="font-body-lg text-body-lg text-on-surface-variant mt-2 max-w-md">
+            <p className="font-body-lg text-body-md md:text-body-lg text-on-surface-variant mt-2 max-w-md">
               Saya selalu terbuka untuk mendiskusikan pekerjaan atau peluang kerjasama.
               Kirim pesan.
             </p>
@@ -54,7 +54,7 @@ export default function Contact() {
           <div className="flex flex-col gap-4 mt-4">
             <div className="flex items-center gap-4 text-on-surface-variant">
               <span className="material-symbols-outlined text-primary-container">mail</span>
-              <span className="font-body-md">suciindahpurnama2003@gmail.com</span>
+              <span className="font-body-md text-body-md md:text-body-lg">suciindahpurnama2003@gmail.com</span>
             </div>
             <div className="flex items-center gap-4 text-on-surface-variant">
               <span className="material-symbols-outlined text-primary-container">phone</span>
@@ -62,7 +62,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center gap-4 text-on-surface-variant">
               <span className="material-symbols-outlined text-primary-container">location_on</span>
-              <span className="font-body-md">Sumedang, Jawa Barat</span>
+              <span className="font-body-md text-body-md md:text-body-lg">Sumedang, Jawa Barat</span>
             </div>
           </div>
 

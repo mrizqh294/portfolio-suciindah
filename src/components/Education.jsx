@@ -54,7 +54,7 @@ export default function Education() {
                   {edu.school}
                 </p>
               </div>
-              <p className="font-body-md text-body-md text-on-surface-variant">
+              <p className="font-body-md text-body-md md:text-body-lg text-on-surface-variant">
                 {edu.description}
               </p>
               <span className="mt-auto inline-block px-3 py-1 bg-surface-container-low text-on-surface-variant font-caption text-caption rounded-full">
