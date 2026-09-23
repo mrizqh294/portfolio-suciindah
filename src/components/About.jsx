@@ -28,9 +28,8 @@ export default function About() {
           className="font-body-lg text-body-md md:text-body-lg text-on-surface-variant leading-relaxed"
         >
           Lulusan D3 Rekam Medis dan Informasi Kesehatan dengan STR aktif dan 
-          pengalaman kerja lebih dari 1 tahun di rumah sakit pada posisi 
-          Customer Service, Kasir, dan Staf Pendaftaran, serta memiliki pengalaman 
-          Praktik Kerja Lapangan (PKL) sebagai Perekam Medis.
+          pengalaman kerja lebih dari 1 tahun di rumah sakit pada posisi Perekam Medis, Staf Pendaftaran
+          Customer Service, dan Kasir.
         </motion.p>
 
         <motion.p
