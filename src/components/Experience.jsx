@@ -2,6 +2,17 @@ import { motion } from "framer-motion";
 import { fadeUp, slideFromLeft, viewportOnce } from "../animations";
 
 const EXPERIENCES = [
+   {
+    role: "Staf Perekam Medis (THL)",
+    company: "Klinik Bandung Eye Center",
+    period: "September 2026 – Sekarang",
+    current: true,
+    points: [
+      "Memproses alih media Rekam Medis fisik ke sistem RME melalui pemindaian (scanning) 70+ dokumen/hari.",
+      "Mengunggah dokumen, verifikasi data, serta memastikan kerahasiaan data pasien.",
+    ],
+    proofLink: "",
+  },
   {
     role: "Staff Pendaftaran",
     company: "Rumah Sakit Ibu dan Anak Grha Bunda",
