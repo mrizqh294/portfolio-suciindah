@@ -37,7 +37,7 @@ export default function Hero() {
           className="flex gap-4 mt-unit"
         >
           <a
-            href="https://drive.google.com/file/d/1sp2dIRfEeko2cR97AJyNqhON4NrOaxQj/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1yA2rNl-VZR2BPY4M6SVWbHUkdtsOE305/view?usp=drivesdk"
             target="_blank"
             className="inline-flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary font-label-md text-label-md rounded-lg hover:opacity-90 transition-opacity"
           >

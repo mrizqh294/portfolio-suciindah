@@ -4,7 +4,7 @@ import { fadeUp, slideFromLeft, viewportOnce } from "../animations";
 const EXPERIENCES = [
    {
     role: "Staf Perekam Medis (THL)",
-    company: "Klinik Bandung Eye Center",
+    company: "Klinik Utama Mata Bandung Eye Center",
     period: "September 2026 – Sekarang",
     current: true,
     points: [
